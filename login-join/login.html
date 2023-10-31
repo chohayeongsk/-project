@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>
+      로그인 홈페이지
+    </title>
+  </head>
+  <body>
+    <center>
+      <h1>신광 교내 시설 대여 시스템<br></h1> 
+
+        <table>
+            <tr align="right">
+             <th>아이디 <input type=text id="id" size="7" autocomplete=off></th> <th rowspan="2" > <input type="button" value="로그인" onclick="aa()" ></th>
+           </tr>
+           <tr align="right">
+               <th>비밀번호 <input type=password id="pwd" size="7"></th>
+           </tr>
+           <tr align="right">
+             <th><input type="button" value="회원가입" onClick="location.href='C:/Users/gd/Desktop/html과제/과제1/회원가입a.html'" > </th> <th><input type="button" value="ID찾기"></th>
+           </tr>
+       </table>
+
+        <script>
+          function aa(){
+            if(id.value==='' || pwd.value ===''){
+              alert('아이디와 비밀번호를 입력하세요');
+            }
+            }
+        </script>
+    </center>
+  </body>
+</html>
